@@ -1,6 +1,6 @@
 import Amenity from "@/components/Amenity";
 import { AMENITIES } from "./data";
-import Image from "next/image";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -36,6 +36,9 @@ export default function Home() {
         ))}
         </div>
       </div>
+
+      {/* Footer */}
+      <Footer />
     </main>
   );
 }

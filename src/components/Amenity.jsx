@@ -4,6 +4,8 @@ export default function(props) {
         <div className="flex flex-col m-4 border border-black rounded justify-center">
             <Image
               className="w-full max-h-48"
+              width={500}
+              height={500}
               src={props.image}
               alt={props.image}
             />
