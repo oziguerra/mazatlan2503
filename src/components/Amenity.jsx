@@ -1,5 +1,5 @@
 import Image from "next/image";
-export default function(props) {
+export default function Amenity(props) {
     return(
         <div className="flex flex-col m-4 border border-black rounded justify-center">
             <Image
