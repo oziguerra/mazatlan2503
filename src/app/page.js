@@ -47,7 +47,7 @@ export default function Home() {
 
       <div className="flex flex-col w-full items-center mb-4">
       <h1 className="p-9 font-kalnia text-xl xl:text-4xl">Location</h1>
-      <iframe className="border-double border-4 border-black" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.9332126144614!2d-106.45608522367115!3d23.245517307969752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869f550b9a421661%3A0x48686ce8b59158ad!2sCamino%20al%20Mar%20-%20Plaza%20Comercial!5e0!3m2!1sen!2sca!4v1702489121270!5m2!1sen!2sca" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe className="border-double border-4 border-black w-96 h-80 md:w-[500px] md:h-[450px]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.9332126144614!2d-106.45608522367115!3d23.245517307969752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869f550b9a421661%3A0x48686ce8b59158ad!2sCamino%20al%20Mar%20-%20Plaza%20Comercial!5e0!3m2!1sen!2sca!4v1702489121270!5m2!1sen!2sca" width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
       </div>
 
       {/* Footer */}
